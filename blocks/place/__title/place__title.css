@@ -1,0 +1,26 @@
+@media (min-width: 1024px) {
+  .place__title {
+    height: fit-content;
+    margin: auto auto 0 0; 
+    font-family: Inter, Arial, sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+    /*border: 1px solid pink;*/
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place__title {
+    height: fit-content;
+    margin: auto auto 0 0; 
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

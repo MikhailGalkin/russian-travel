@@ -1,0 +1,23 @@
+@media (min-width: 1280px) {
+    .places {
+        margin: 0 0 92px calc(50% - 984px / 2);
+        width: fit-content;
+        /*border: 1px solid white;*/
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        margin: 0 0 92px calc(50% - 928px / 2);
+        width: fit-content;
+        /*border: 1px solid white;*/
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .places {
+        margin: 0 0 90px calc(50% - 720px / 2);
+        width: fit-content;
+        /*border: 1px solid white;*/
+    }
+}

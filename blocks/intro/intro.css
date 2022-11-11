@@ -1,0 +1,26 @@
+@media (min-width: 1280px) {
+  .intro {
+    position: relative;
+    width: 690px;
+    margin: 92px 0 92px calc(50% - 984px / 2);
+    /*order: 1px solid white;*/
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .intro {
+    position: relative;
+    width: 690px;
+    margin: 92px 0 92px calc(50% - 928px / 2);
+    /*order: 1px solid white;*/
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    position: relative;
+    width: 720px;
+    margin: 88px 0 88px calc(50% - 720px / 2);
+    /*order: 1px solid white;*/
+  }
+}

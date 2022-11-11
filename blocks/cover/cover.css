@@ -1,0 +1,44 @@
+@media (min-width: 1280px) {
+    .cover {
+        height: auto;
+        width: fit-content;
+        position: relative;
+        margin: 0 auto 92px;  
+        padding: 0;
+        /*border: 1px solid white;*/
+    }
+
+    .cover:hover {
+        opacity: 80%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .cover {
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin: 0 auto 92px;  
+        padding: 0;
+        /*border: 1px solid white;*/
+    }
+
+    .cover:hover {
+        opacity: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin: 0 auto 88px;  
+        padding: 0;
+        /*border: 1px solid white;*/
+    }
+
+    .cover:hover {
+        opacity: 80%;
+    }
+}

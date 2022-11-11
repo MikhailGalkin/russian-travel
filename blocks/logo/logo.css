@@ -1,0 +1,9 @@
+.logo {
+  display: inline-block;
+  width: 176px;
+  height: 52px;
+  background-image: url('/Users/Mihail/dev/russian-travel/images/header-logo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
