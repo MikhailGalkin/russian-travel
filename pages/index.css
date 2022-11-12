@@ -21,10 +21,10 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__text/lead__text.css);
 @import url(../blocks/lead/__title/lead__title.css);
-@import url(../blocks/cover/__link/cover__link.css);
-@import url(../blocks/cover/__paragraph/cover__paragraph.css);
-@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__paragraph/cover__paragraph.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
 @import url(../blocks/facts/__parameter/facts__parameter.css);
 @import url(../blocks/facts/__value/facts__value.css);

@@ -1,7 +1,7 @@
 @media (min-width: 1280px) {
     .cover {
-        height: auto;
-        width: fit-content;
+        height: 740px;
+        width: 1184px;
         position: relative;
         margin: 0 auto 92px;  
         padding: 0;

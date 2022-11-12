@@ -2,7 +2,7 @@
   .header {
     display: flex;
     justify-content: space-between;
-    max-width: 1184px;
+    width: 1184px;
     height: 52px;
     margin: 28px auto 56px;
     /*border: 1px solid white;*/
@@ -13,7 +13,7 @@
   .header {
     display: flex;
     justify-content: space-between;
-    max-width: 928px;
+    width: 928px;
     height: 52px;
     margin: 28px auto 48px;
     /*border: 1px solid white;*/
