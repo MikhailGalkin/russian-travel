@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .cover__title {
     max-width: 560px;
     height: fit-content;
@@ -15,7 +15,25 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
+  .cover__title {
+    max-width: 424px;
+    height: fit-content;
+    margin: 0 auto 24px;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-align: center;
+    /*border: 1px solid white;*/
+  }
+}
+
+
+@media (max-width: 425px) {
   .cover__title {
     max-width: 288px;
     height: fit-content;

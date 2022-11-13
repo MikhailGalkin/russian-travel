@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .cover__paragraph {
     max-width: 360px;
     height: fit-content;
@@ -15,7 +15,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .cover__paragraph {
     max-width: 288px;
     height: fit-content;

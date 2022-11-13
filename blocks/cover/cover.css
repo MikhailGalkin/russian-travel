@@ -1,4 +1,4 @@
-@media (min-width: 1280px) {
+@media (min-width: 1279px) {
     .cover {
         height: 740px;
         width: 1184px;
@@ -13,7 +13,7 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1023px) and (max-width: 1279px) {
     .cover {
         height: auto;
         width: 100%;
@@ -28,7 +28,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1023px) {
     .cover {
         height: auto;
         width: 100%;
@@ -43,7 +43,22 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
+    .cover {
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin: 0 auto 80px;  
+        padding: 0;
+        /*border: 1px solid white;*/
+    }
+
+    .cover:hover {
+        opacity: 80%;
+    }
+}
+
+@media (max-width: 425px) {
     .cover {
         height: auto;
         width: 100%;

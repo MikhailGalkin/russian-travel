@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .place__url-links {
     display: flex;
     flex-direction: column;
@@ -7,7 +7,16 @@
   }
 } 
 
-@media (min-width: 320px) and (max-width: 768px) {
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .place__url-links {
+    margin-left: calc(50% - 380px / 2);
+    margin-bottom: 36px;
+    /*border: 1px solid pink;*/
+  }
+} 
+
+@media (max-width: 425px) {
   .place__url-links {
     margin-left: calc(50% - 288px / 2);
     margin-bottom: 32px;

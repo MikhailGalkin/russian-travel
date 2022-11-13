@@ -1,4 +1,4 @@
-@media (min-width: 1280px) {
+@media (min-width: 1279px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px){
+@media (min-width: 1023px) and (max-width: 1279px){
   .header {
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,18 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 48px;
+    margin: 22px auto 48px;
+    /*border: 1px solid white;*/
+  }
+}
+
+@media (max-width: 425px) {
   .header {
     display: flex;
     justify-content: space-between;

@@ -1,4 +1,4 @@
-@media (min-width: 1280px) {
+@media (min-width: 1279px) {
     .places {
         margin: 0 0 92px calc(50% - 984px / 2);
         width: fit-content;
@@ -6,7 +6,7 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1023px) and (max-width: 1279px) {
     .places {
         margin: 0 0 92px calc(50% - 928px / 2);
         width: fit-content;
@@ -14,7 +14,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1023px) {
     .places {
         margin: 0 0 90px calc(50% - 720px / 2);
         width: fit-content;
@@ -22,7 +22,15 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
+    .places {
+        margin: 0 auto 68px;
+        width: fit-content;
+        /*border: 1px solid white;*/
+    }
+}
+
+@media (max-width: 425px) {
     .places {
         margin: 0 auto 66px;
         width: fit-content;

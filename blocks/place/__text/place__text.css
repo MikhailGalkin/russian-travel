@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
   .place__text {
     font-family: Inter, Arial, sans-serif;
     font-size: 18px;
@@ -12,7 +12,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .place__text {
     font-family: Inter, Arial, sans-serif;
     font-size: 16px;
@@ -25,7 +25,22 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
+  .place__text {
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: calc(50% - 380px / 2);
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 425px) {
   .place__text {
     font-family: Inter, Arial, sans-serif;
     font-size: 16px;
