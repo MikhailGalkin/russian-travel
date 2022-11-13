@@ -42,7 +42,7 @@
 @media (max-width: 425px) {
   .place__title {
     height: fit-content;
-    margin: auto auto 32px calc(50% - 288px / 2); 
+    margin: auto auto 32px calc(50% - 288px / 2);
     font-family: Inter, Arial, sans-serif;
     font-size: 32px;
     font-weight: 900;
