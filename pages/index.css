@@ -38,7 +38,7 @@
 @import url(../blocks/place/__url-links/place__url-links.css);
 @import url(../blocks/language/__en/language__en.css);
 @import url(../blocks/language/__ru/language__ru.css);
-@import url(../blocks/language/_enabled/language_enabled.css);
+@import url(../blocks/language/_link/language_link_enabled.css);
 
 @font-face {
     font-family: 'Inter';
