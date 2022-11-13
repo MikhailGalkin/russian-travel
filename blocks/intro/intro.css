@@ -7,7 +7,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .intro {
     position: relative;
     width: 690px;
@@ -16,7 +16,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .intro {
     position: relative;
     width: 720px;
@@ -24,3 +24,13 @@
     /*order: 1px solid white;*/
   }
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .intro {
+    position: relative;
+    width: 288px;
+    margin: 64px 0 64px calc(50% - 288px / 2);
+    /*order: 1px solid white;*/
+  }
+}
+

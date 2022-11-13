@@ -1,9 +1,21 @@
-.logo {
+@media (min-width: 768px) {
+  .logo {
+    display: inline-block;
+    width: 176px;
+    height: 52px;
+    background-image: url('/Users/Mihail/dev/russian-travel/images/header-logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .logo {
   display: inline-block;
-  width: 176px;
-  height: 52px;
+  width: 142px;
+  height: 42px;
   background-image: url('/Users/Mihail/dev/russian-travel/images/header-logo.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  
+  }
 }

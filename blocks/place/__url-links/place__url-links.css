@@ -1,6 +1,16 @@
-.place__url-links {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  /*border: 1px solid pink;*/
-}
+@media (min-width: 768px) {
+  .place__url-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /*border: 1px solid pink;*/
+  }
+} 
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .place__url-links {
+    margin-left: calc(50% - 288px / 2);
+    margin-bottom: 32px;
+    /*border: 1px solid pink;*/
+  }
+} 

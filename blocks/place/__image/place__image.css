@@ -5,16 +5,24 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .place__image {
     height: 440px;
     width: 440px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .place__image {
     height: 340px;
     width: 340px;
+  }
+}
+
+@media (min-width: 320px) and  (max-width: 768px) {
+  .place__image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 32px;
   }
 }

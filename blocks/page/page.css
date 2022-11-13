@@ -1,7 +1,8 @@
 .page {
     background: #2A2C2F;
     color: #FFFFFF;
-    font-family: 'Inter', Arial, sans-serif;
     overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     /*border: 3px solid green;*/
 }

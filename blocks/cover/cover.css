@@ -13,7 +13,7 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
     .cover {
         height: auto;
         width: 100%;
@@ -28,12 +28,27 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .cover {
         height: auto;
         width: 100%;
         position: relative;
         margin: 0 auto 88px;  
+        padding: 0;
+        /*border: 1px solid white;*/
+    }
+
+    .cover:hover {
+        opacity: 80%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .cover {
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin: 0 auto 64px;  
         padding: 0;
         /*border: 1px solid white;*/
     }
