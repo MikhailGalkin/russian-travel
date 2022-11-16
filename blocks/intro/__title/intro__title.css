@@ -1,23 +1,15 @@
-@media (min-width: 767px) {
-  .intro__title {
-    width: 100%;
-    margin: 0 0 40px;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-  }
+.intro__title {
+  width: 100%;
+  margin: 0 0 40px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
 }
 
-
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .intro__title {
-    width: 100%;
-    margin: 0 0 40px;
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 900;
     font-size: 42px;
     line-height: 48px;
   }
@@ -25,11 +17,6 @@
 
 @media (max-width: 425px) {
   .intro__title {
-    width: 100%;
-    margin: 0 0 40px;
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
   }

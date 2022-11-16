@@ -1,0 +1,29 @@
+.cover__link {
+  display: block;
+  max-width: 560px;
+  height: fit-content;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  z-index: 2;
+  margin: 0 auto 32px;
+  /*border: 1px solid white;*/
+}
+
+.cover__link:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .cover__link {
+    max-width: 424px;
+    margin: 0 auto 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__link {
+    max-width: 288px;
+    margin: 0 auto 16px;
+    }
+}

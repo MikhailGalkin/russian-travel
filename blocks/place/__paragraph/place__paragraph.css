@@ -1,15 +1,15 @@
-@media (min-width: 1023px) {
-  .place__paragraph {
-    padding-top: 0;
-    margin: 0 auto 26px 0;
-    /*border: 1px solid white;*/
-  }
+.place__paragraph {
+  padding-top: 0;
+  margin: 0 auto 26px 0;
+  /*border: 1px solid white;*/
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 @media (max-width: 1023px) {
 .place__paragraph {
-  padding-top: 0;
   margin: 0 auto 25px 0;
   }
 }
-

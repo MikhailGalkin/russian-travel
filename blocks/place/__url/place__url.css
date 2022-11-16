@@ -6,6 +6,9 @@
   letter-spacing: 2px;
   text-align: left;
   color: #AAAAAA;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   margin-bottom: 12px;
   /*border: 1px solid pink;*/
 }
