@@ -1,13 +1,8 @@
 .cover {
     width: 1184px;
-    height: 740px;
+    min-height: 740px;
     margin: 0 auto 92px;
     padding: 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     box-sizing: border-box;
     /*border: 1px solid pink;*/
 }
@@ -15,7 +10,7 @@
 @media (max-width: 1279px) {
     .cover {
         width: 100%;
-        height: calc(100vw * .625);
+        min-height: calc(100vw * .625);
     }
 }
 
